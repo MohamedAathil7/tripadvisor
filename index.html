@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar_s1">
+            <h1>Tripadvisor</h1>
+        </div>
+        <div>
+            <ul class="navbar_s2">
+                <li>Discover</li>
+                <li>Trips</li>
+                <li>Review</li>
+                <li>Forums</li>
+            </ul>
+        </div>
+        <div class="navbar_s3">
+            <p>INR</p>
+            <button>Sign in </button>
+        </div>
+    </div>
+
+    <div class="where">
+        <h1>Where to?</h1>
+    </div>
+    <div class="search__section">
+        <ul>
+            <li>Search All
+            </li>
+            <li> Hotels
+            </li>
+            <li> Things to Do
+            </li>
+            <li>Restaurants
+            </li>
+            <li>Flights
+            </li>
+            <li>Holiday Homes</li>
+        </ul>
+    </div>
+    <div class="search__bar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Places to go,things to do">
+        <button>Search</button>
+    </div>
+
+    <div class="hero">
+        <img src="./hero.png" alt="">
+        <div class="hero_para">
+        <p class="p1">Powered by AI BETA</p> 
+        <p class="p2">Get custom recs 
+for your next trip</p>
+        <p class="p3">Find great eats, experiences, and more—inspired by things you love.</p></div>
+    </div>
+    <div class="card__section_para">
+        <h3 style="margin-bottom:5px;">Go on an award-winning adventure</h3>
+        <p>2024’s Travellers’ Choice Awards Best of the Best Things To Do</p>
+    </div>
+    <div class="card">
+        <div class="card__section">
+            <img src="./c-1.jpg" alt="">
+        </div>
+        <div class="card__section">
+            <img src="./c-2.jpg" alt="">
+        </div>
+        <div class="card__section">
+            <img src="./c-3.jpg" alt="">
+        </div>
+        <div class="card__section">
+            <img src="./c-4.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="read">
+        <div class="read_1">
+            <img src="./read.jpg" alt="">
+        </div>
+        <div class="read_2">
+            <div class="read_22">
+            <h1>Beyond the race: Your essential Singapore guide</h1>
+            <p>Don’t miss the city’s coolest events and insider recs this Grand Prix season.</p>
+            <button>Read More</button></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-1">
+            <div class="footer-1__desc_1">
+                <p>About Tripadvisor
+                </p>
+                <p>Resources and Policies</p>
+                <p>Get the app</p>
+                <p>About Us</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="footer-1__desc_2">
+                <p>Accessibility Statement</p>
+                <p>Help</p>
+                <p>Trust & Safety</p>
+                <p>Support</p>
+                <p>Blob</p>
+            </div>
+        </div>
+        <div class="footer__para">
+            <p >This is the version of our website addressed to speakers of English in India. If you are a resident of another country or region, please select the appropriate version of Tripadvisor for your country or region in the drop-down menu.</p>
+
+               <p> Tripadvisor LLC makes no guarantees for availability of prices advertised on our sites and applications. Listed prices may require a stay of a particular length or have blackout dates, qualifications or other applicable restrictions. Tripadvisor LLC is not responsible for any content on external web sites that are not owned or operated by Tripadvisor .</p>
+                
+               <p> Tripadvisor LLC is not a booking agent or tour operator. When you book with one of our partners, please be sure to check their site for a full disclosure of all applicable fees.</p>
+        </div>
+        <div class="footer-2">
+            <h1>Tripadvisor</h1>
+            <p>&copy; Mohamed Aathil</p>
+        </div>
+    </div>
+    <script>
+        window.addEventListener("scroll", function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 0) {
+                navbar.style.borderBottom = "2px solid #ccc"; 
+            } else {
+                navbar.style.borderBottom = "none";  
+            }
+        });
+    </script>
+    
+</body>
+
+</html>
